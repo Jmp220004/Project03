@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScreenFlashController : MonoBehaviour
 {
-    [Header ("Screen Flash Canvas")]
+    [Header ("Screen Flash Image")]
     [SerializeField] ScreenFlash _screenFlash = null;
     [Header ("Screen Flash Color")]
     [SerializeField] Color _flashColor = Color.red;
